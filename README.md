@@ -11,13 +11,22 @@
 | `original-data.zip` | 题方提供的成交记录和账户快照。已有相同版本题包的读者可以直接使用原文件。 |
 | `SHA256SUMS` | 三个附件的 SHA-256 校验和，可用来检查下载文件是否完整。 |
 
-## 快速复算
+## 环境设置
 
-将代码包解压，在包含 `reproduce/` 的目录中建立 Python 3.11 虚拟环境，安装复算依赖。安装依赖后，研究脚本可以离线运行。
+回测在 macOS 和 Python 3.11.15 上验证。从 GitHub 克隆仓库后，在仓库根目录运行以下命令创建虚拟环境并安装依赖。[安装清单](requirements.txt) · [五个依赖包的固定版本](reproduce/requirements.txt)
 
 ```sh
 python3.11 -m venv .venv
-.venv/bin/python -m pip install -r reproduce/requirements.txt
+.venv/bin/python -m pip install -r requirements.txt
+```
+
+如果使用 Release 下载的 `code-and-reports.zip`，在解压目录创建同样的虚拟环境，安装时使用 `.venv/bin/python -m pip install -r reproduce/requirements.txt`。
+
+## 快速复算
+
+安装依赖后，在包含 `reproduce/` 的目录中运行以下命令。
+
+```sh
 .venv/bin/python reproduce/run.py --mode quick --output ../arkstream-quick
 ```
 
