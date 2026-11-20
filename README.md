@@ -1,6 +1,6 @@
 # ArkStream 选址回测复现
 
-[下载回测数据与 v1.0.1 复现包](https://github.com/vvvv100012/arkstream_quest/releases/tag/backtest-v1.0.1)
+[下载最新复现包与回测数据](https://github.com/vvvv100012/arkstream_quest/releases/latest)
 
 [最终报告](最终报告.md)给出数据来源、选址规则和主线回测结果。[最终报告附录](最终报告附录.md)收录账户示例、外部数据核对和九种方案的完整对照。
 
