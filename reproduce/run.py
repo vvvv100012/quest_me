@@ -9,7 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parent.parent
 OLD_ROOT = "/Users/xc/Documents/arkstream_quest"
 COMMON = [
-    "final_report.md", "selection.md",
+    "最终报告.md", "最终报告附录.md",
     "work/select/run_simulation.py", "reproduce/summary.py",
 ]
 SNAPSHOTS = [

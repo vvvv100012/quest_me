@@ -1,8 +1,8 @@
 # ArkStream 选址回测复现
 
-[下载本次提交的数据和复现包](https://github.com/vvvv100012/arkstream_quest/releases/tag/backtest-v1.0.1)
+[下载回测数据与 v1.0.1 复现包](https://github.com/vvvv100012/arkstream_quest/releases/tag/backtest-v1.0.1)
 
-[最终报告](final_report.md)给出数据核对、选址规则和主线结果。[每周选址规则与历史检验](selection.md)列出九种方案的完整对照。
+[最终报告](最终报告.md)给出数据来源、选址规则和主线回测结果。[最终报告附录](最终报告附录.md)收录账户示例、外部数据核对和九种方案的完整对照。
 
 | 文件 | 用途 |
 |---|---|
@@ -13,7 +13,7 @@
 
 ## 快速复算
 
-将代码包解压，在包含 `selection.md` 的目录中建立 Python 3.11 虚拟环境，安装复算依赖。安装依赖后，研究脚本可以离线运行。
+将代码包解压，在包含 `reproduce/` 的目录中建立 Python 3.11 虚拟环境，安装复算依赖。安装依赖后，研究脚本可以离线运行。
 
 ```sh
 python3.11 -m venv .venv
